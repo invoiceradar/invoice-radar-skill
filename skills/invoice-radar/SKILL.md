@@ -5,11 +5,11 @@ description: Collect invoices from connected services and search, inspect, expor
 
 # Invoice Radar
 
-Use the `invoice-radar` CLI to collect and work with the user's invoices. Collection runs through integrations in the desktop app; the CLI does not scrape an arbitrary URL.
+Use the [Invoice Radar](https://invoiceradar.com) `invoice-radar` CLI to collect and work with the user's invoices. Collection runs through integrations in the desktop app; the CLI does not scrape an arbitrary URL.
 
 ## Before using the CLI
 
-- The CLI currently runs on macOS. Invoice Radar must be installed, signed in, and have **Settings → General → CLI Access** enabled.
+- The CLI currently runs on macOS. [Install Invoice Radar](https://invoiceradar.com/download), sign in, and enable **Settings → General → CLI Access**.
 - Check `invoice-radar status`. If the app is closed, use `invoice-radar open --wait` and check again. If the command is missing, see [CLI setup and commands](references/cli.md#setup).
 - Commands use the organization selected in the app. For another organization, find its ID with `invoice-radar org list` and pass `--org <org-id>`.
 - Prefer `--json` for results an agent will parse. Check command exit status and the returned `success` or `result` field where present; a command completing does not mean invoices were found.
