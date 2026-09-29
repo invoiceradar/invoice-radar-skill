@@ -1,0 +1,10 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Invoice Automation",
+      "description": "Collect, search, and export invoices from connected services with Invoice Radar.",
+      "skills": ["invoice-radar"]
+    }
+  ]
+}
