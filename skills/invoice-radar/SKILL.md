@@ -1,11 +1,13 @@
 ---
 name: invoice-radar
-description: Collect invoices from connected services and search, inspect, export, or sync documents with the Invoice Radar desktop CLI. Use for Invoice Radar document workflows; not for the internal admin CLI or generic website scraping.
+description: Automate invoice collection from connected billing services with Invoice Radar. Use the desktop CLI to run integrations, find invoices, export PDF documents, or sync them to configured destinations. Use for Invoice Radar document workflows, not generic website scraping.
 ---
 
 # Invoice Radar
 
-Use the [Invoice Radar](https://invoiceradar.com) `invoice-radar` CLI to collect and work with the user's invoices. Collection runs through integrations in the desktop app; the CLI does not scrape an arbitrary URL.
+[Invoice Radar](https://invoiceradar.com) collects invoices and billing documents from connected services and keeps them searchable in one place. This skill lets an agent use the `invoice-radar` CLI to run integrations, find the right invoice, export its PDF, or sync it to a destination already configured in the desktop app. Collection runs through supported integrations; the CLI does not scrape an arbitrary URL.
+
+Learn how [web portal invoice collection](https://invoiceradar.com/docs/invoices-from-web-portals) and [export destinations](https://invoiceradar.com/docs/export) work in Invoice Radar.
 
 ## Before using the CLI
 
